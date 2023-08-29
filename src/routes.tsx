@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import NProgressBar from "@material-ui/core";
+
 import Orders from "./components/Orders";
 import MainContent from "./components/MainContent";
 import nprogress from "nprogress";
@@ -16,6 +18,8 @@ export default function Rutas() {
   let location = useLocation();
 
   useEffect(() => {
+    // NProgressBar.start();
+    // NProgressBar.done();
     nprogress.start();
     nprogress.done();
   }, [location.pathname]);

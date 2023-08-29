@@ -60,3 +60,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 [Conditionally activate Material UI tooltip?](https://stackoverflow.com/questions/53591747/conditionally-activate-material-ui-tooltip)
 
 [Grid](https://mui.com/material-ui/react-grid/)
+
+[Inertia ProgessBar show under Appbar React MUI](https://stackoverflow.com/questions/70051754/inertia-progessbar-show-under-appbar-react-mui)

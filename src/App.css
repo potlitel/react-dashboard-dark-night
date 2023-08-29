@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#nprogress .bar {
+  background: #008000 !important;
+  height: 5px !important;
+  /* background: #ffffff; */
+  position: fixed;
+  z-index: 1201 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#nprogress .spinner .spinner-icon {
+  width: 22px;
+  height: 22px;
+  border-top-color: #008000 !important;
+  border-left-color: #008000 !important;
+}
+
+#nprogress .spinner {
+  top: 15px;
+  left: 15px !important;
+}
+
+/* #nprogress .peg {
+  display: block;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  transform: rotate(3deg) translate(0, -4px);
+  width: 100px;
+} */

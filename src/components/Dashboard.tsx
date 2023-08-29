@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -21,6 +21,7 @@ import { Tooltip } from "@mui/material";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { mainListItems, secondaryListItems } from "./listItems";
+import nprogress from "nprogress";
 import {
   orange,
   lightBlue,
@@ -40,6 +41,7 @@ import PeopleIcon from "@material-ui/icons/People";
 import BarChartIcon from "@material-ui/icons/BarChart";
 import LayersIcon from "@material-ui/icons/Layers";
 import ListItemLink from "./common/ListItemLink";
+// import { Routes, Route, useLocation } from "react-router-dom";
 
 export default function Dashboard() {
   const [open, setOpen] = useState(true);
@@ -48,10 +50,15 @@ export default function Dashboard() {
   const mainPrimaryColor = darkState ? orange[500] : lightBlue[500];
   const mainSecondaryColor = darkState ? deepOrange[900] : deepPurple[500];
 
+  // let location = useLocation();
   // const [selectedIndex, setSelectedIndex] = React.useState(1);
   // const handleListItemClick = (event: any, index: any) => {
   //   setSelectedIndex(index);
   // };
+
+  useEffect(() => {
+    console.log(darkTheme.zIndex.appBar);
+  }, []);
 
   const darkTheme = createTheme({
     palette: {
