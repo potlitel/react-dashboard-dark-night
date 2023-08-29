@@ -1,3 +1,9 @@
+# Info
+
+This repository represents a realization of the practical exercise of the following link [React Dark Mode switch in Material UI Dashboard](https://medium.com/heuristics/react-dark-mode-switch-in-material-ui-dashboard-82fcf1cded66) and looks like this:
+
+<img src="images/Resume.gif" alt="Logo" width="840" height="480">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +50,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Usefull links
+
+[React Dark Mode switch in Material UI Dashboard](https://medium.com/heuristics/react-dark-mode-switch-in-material-ui-dashboard-82fcf1cded66)
+
+[Material UI v4 makeStyles exported from a single file doesn't retain the styles on refresh](https://stackoverflow.com/questions/56929702/material-ui-v4-makestyles-exported-from-a-single-file-doesnt-retain-the-styles)
+
+[Conditionally activate Material UI tooltip?](https://stackoverflow.com/questions/53591747/conditionally-activate-material-ui-tooltip)
+
+[Grid](https://mui.com/material-ui/react-grid/)
